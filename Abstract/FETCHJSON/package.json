@@ -1,0 +1,17 @@
+{
+  "name": "fetchjson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:build": "tsc index.ts --watch",
+    "watch:server": "nodemon index.js",
+    "start": "npm-run-all --parallel watch:build watch:server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "nodemon": "^2.0.6"
+  }
+}
